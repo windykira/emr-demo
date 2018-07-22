@@ -27,6 +27,11 @@
 			<artifactId>haoze.api</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.haoze</groupId>
+			<artifactId>haoze.model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -41,12 +46,12 @@
 	</dependencies>
 
 	<build>
-		<plugins>
+		<!--<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+		</plugins>-->
 	</build>
 
 
