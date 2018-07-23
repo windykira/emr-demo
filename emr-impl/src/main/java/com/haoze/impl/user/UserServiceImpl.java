@@ -1,6 +1,7 @@
 package com.haoze.impl.user;
 
 import com.haoze.api.user.UserService;
+import com.haoze.frameutils.OcsCache;
 import com.haoze.model.user.UserInfo;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,7 @@ public class UserServiceImpl implements UserService{
         userInfo.setId("222");
         userInfo.setUserName("李四");
         list.add(userInfo);
+        System.out.println(OcsCache.get("test")+"****");
         return list;
     }
 }
